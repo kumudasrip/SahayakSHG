@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets and environment files (never commit)
+.env
+.env.*
+*.key
+*.pem
+
+# Private research PDFs (keep locally, commit only links and notes)
+research/private/
+research/pdfs/
+
+# Python / Node (for later prototype work)
+__pycache__/
+*.pyc
+node_modules/
+.venv/
